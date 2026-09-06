@@ -238,6 +238,14 @@ export const certificates: Certificate[] = [
     image: eduskillsFullstack.url,
   },
   {
+    title: "Applications & Use Cases Professional Certification",
+    issuer: "RapidMiner (An Altair Company)",
+    date: "Professional level",
+    category: "Technical Certifications",
+    image: rapidminer.url,
+  },
+
+  {
     title: "Android Developer Virtual Internship",
     issuer: "National Internship Portal / EduSkills",
     date: "July – September 2025",

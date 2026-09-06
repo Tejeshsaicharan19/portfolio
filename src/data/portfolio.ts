@@ -3,6 +3,35 @@
 // PLACEHOLDER values are marked and safe to replace.
 // ============================================================
 
+import deloitte from "@/assets/certificates/deloitte-data-analytics.jpg.asset.json";
+import tata from "@/assets/certificates/tata-genai-data-analytics.jpg.asset.json";
+import jnj from "@/assets/certificates/jnj-robotics-controls.jpg.asset.json";
+import eduskillsData from "@/assets/certificates/eduskills-data-analytics-python.jpg.asset.json";
+import eduskillsFullstack from "@/assets/certificates/eduskills-python-fullstack.jpg.asset.json";
+import androidVi from "@/assets/certificates/android-developer-internship.jpg.asset.json";
+import cyberVi from "@/assets/certificates/cybersecurity-internship.jpg.asset.json";
+import ethicalVi from "@/assets/certificates/ethical-hacking-internship.jpg.asset.json";
+import aimlVi from "@/assets/certificates/ai-ml-internship.jpg.asset.json";
+import cloudGameVi from "@/assets/certificates/cloud-game-development-internship.jpg.asset.json";
+import nptel from "@/assets/certificates/nptel-joy-of-computing-python.jpg.asset.json";
+import quantum from "@/assets/certificates/apssdc-quantum-computing.jpg.asset.json";
+import pitchNight from "@/assets/certificates/google-pitch-night.jpg.asset.json";
+import dcSql from "@/assets/certificates/datacamp-intro-sql.jpg.asset.json";
+import dcPython from "@/assets/certificates/datacamp-intro-python.jpg.asset.json";
+import dcViz from "@/assets/certificates/datacamp-data-visualization.jpg.asset.json";
+import dcRelational from "@/assets/certificates/datacamp-relational-databases-sql.jpg.asset.json";
+import dcCloud from "@/assets/certificates/datacamp-cloud-computing.jpg.asset.json";
+import dcWarehouse from "@/assets/certificates/datacamp-data-warehousing.jpg.asset.json";
+import dcDecision from "@/assets/certificates/datacamp-data-driven-decision-sql.jpg.asset.json";
+import dcRedshift from "@/assets/certificates/datacamp-intro-redshift.jpg.asset.json";
+import dcPytorch from "@/assets/certificates/datacamp-deep-learning-pytorch.jpg.asset.json";
+import dcApplyingSql from "@/assets/certificates/datacamp-applying-sql.jpg.asset.json";
+import dcPostgres from "@/assets/certificates/datacamp-postgresql-databases.jpg.asset.json";
+import dcLlama from "@/assets/certificates/datacamp-llama-3.jpg.asset.json";
+import dcDbt from "@/assets/certificates/datacamp-intro-dbt.jpg.asset.json";
+import dcOop from "@/assets/certificates/datacamp-intermediate-oop-python.jpg.asset.json";
+
+
 export const profile = {
   firstName: "PEDAPUDI",
   lastName: "TEJESH SAI CHARAN",
@@ -178,94 +207,192 @@ export const certificates: Certificate[] = [
     issuer: "Deloitte",
     date: "March 3, 2026",
     category: "Industry Job Simulations",
+    image: deloitte.url,
   },
   {
     title: "GenAI Powered Data Analytics Job Simulation",
     issuer: "Tata / Forage",
     date: "April 8, 2026",
     category: "Industry Job Simulations",
+    image: tata.url,
   },
   {
     title: "Robotics and Controls Job Simulation",
     issuer: "Johnson & Johnson MedTech / Forage",
     date: "June 28, 2026",
     category: "Industry Job Simulations",
+    image: jnj.url,
   },
   {
-    title: "Data Analytics with Python & Power BI — Internship Certificate",
+    title: "Data Analytics with Python — Internship Certificate",
     issuer: "EduSkills",
+    date: "8-week program",
     category: "Internships",
+    image: eduskillsData.url,
+  },
+  {
+    title: "Python Full-Stack — Internship Certificate",
+    issuer: "EduSkills",
+    date: "10-week program",
+    category: "Internships",
+    image: eduskillsFullstack.url,
   },
   {
     title: "Android Developer Virtual Internship",
     issuer: "National Internship Portal / EduSkills",
+    date: "July – September 2025",
     category: "Internships",
+    image: androidVi.url,
   },
   {
     title: "Cybersecurity Virtual Internship",
     issuer: "National Internship Portal / EduSkills",
+    date: "January – March 2025",
     category: "Internships",
+    image: cyberVi.url,
   },
   {
     title: "Ethical Hacking Virtual Internship",
     issuer: "National Internship Portal / EduSkills",
+    date: "April – June 2025",
     category: "Internships",
+    image: ethicalVi.url,
   },
   {
     title: "AI-ML Virtual Internship",
     issuer: "National Internship Portal / EduSkills",
+    date: "October – December 2024",
     category: "Internships",
+    image: aimlVi.url,
   },
   {
     title: "Cloud Game Development Virtual Internship",
     issuer: "National Internship Portal / EduSkills",
+    date: "October – December 2025",
     category: "Internships",
+    image: cloudGameVi.url,
   },
   {
     title: "The Joy of Computing using Python",
     issuer: "NPTEL",
     date: "July – October 2025",
     category: "Technical Certifications",
+    image: nptel.url,
   },
   {
     title: "Quantum Computing",
     issuer: "APSSDC / Skill AP",
     date: "February 9 – 13, 2026",
     category: "Technical Certifications",
+    image: quantum.url,
   },
   {
     title: "Pitch Night Edition",
-    issuer: "Google",
+    issuer: "Google Student Ambassador Program",
     date: "May 23, 2026",
     category: "Competitions / Participation",
+    image: pitchNight.url,
   },
-  { title: "Introduction to SQL", issuer: "DataCamp", category: "Courses" },
-  { title: "Introduction to Python", issuer: "DataCamp", category: "Courses" },
-  { title: "Understanding Data Visualization", issuer: "DataCamp", category: "Courses" },
+  {
+    title: "Introduction to SQL",
+    issuer: "DataCamp",
+    date: "August 26, 2026",
+    category: "Courses",
+    image: dcSql.url,
+  },
+  {
+    title: "Introduction to Python",
+    issuer: "DataCamp",
+    date: "August 27, 2026",
+    category: "Courses",
+    image: dcPython.url,
+  },
+  {
+    title: "Understanding Data Visualization",
+    issuer: "DataCamp",
+    date: "August 27, 2026",
+    category: "Courses",
+    image: dcViz.url,
+  },
   {
     title: "Introduction to Relational Databases in SQL",
     issuer: "DataCamp",
+    date: "August 27, 2026",
     category: "Courses",
+    image: dcRelational.url,
   },
-  { title: "Understanding Cloud Computing", issuer: "DataCamp", category: "Courses" },
-  { title: "Data Warehousing Concepts", issuer: "DataCamp", category: "Courses" },
-  { title: "Data-Driven Decision Making in SQL", issuer: "DataCamp", category: "Courses" },
-  { title: "Introduction to Redshift", issuer: "DataCamp", category: "Courses" },
+  {
+    title: "Understanding Cloud Computing",
+    issuer: "DataCamp",
+    date: "August 28, 2026",
+    category: "Courses",
+    image: dcCloud.url,
+  },
+  {
+    title: "Data Warehousing Concepts",
+    issuer: "DataCamp",
+    date: "August 28, 2026",
+    category: "Courses",
+    image: dcWarehouse.url,
+  },
+  {
+    title: "Data-Driven Decision Making in SQL",
+    issuer: "DataCamp",
+    date: "August 28, 2026",
+    category: "Courses",
+    image: dcDecision.url,
+  },
+  {
+    title: "Introduction to Redshift",
+    issuer: "DataCamp",
+    date: "August 28, 2026",
+    category: "Courses",
+    image: dcRedshift.url,
+  },
   {
     title: "Introduction to Deep Learning with PyTorch",
     issuer: "DataCamp",
+    date: "August 28, 2026",
     category: "Courses",
+    image: dcPytorch.url,
   },
-  { title: "Applying SQL to Real-World Problems", issuer: "DataCamp", category: "Courses" },
-  { title: "Creating PostgreSQL Databases", issuer: "DataCamp", category: "Courses" },
-  { title: "Working with Llama 3", issuer: "DataCamp", category: "Courses" },
-  { title: "Introduction to dbt", issuer: "DataCamp", category: "Courses" },
+  {
+    title: "Applying SQL to Real-World Problems",
+    issuer: "DataCamp",
+    date: "August 28, 2026",
+    category: "Courses",
+    image: dcApplyingSql.url,
+  },
+  {
+    title: "Creating PostgreSQL Databases",
+    issuer: "DataCamp",
+    date: "August 29, 2026",
+    category: "Courses",
+    image: dcPostgres.url,
+  },
+  {
+    title: "Working with Llama 3",
+    issuer: "DataCamp",
+    date: "August 29, 2026",
+    category: "Courses",
+    image: dcLlama.url,
+  },
+  {
+    title: "Introduction to dbt",
+    issuer: "DataCamp",
+    date: "August 30, 2026",
+    category: "Courses",
+    image: dcDbt.url,
+  },
   {
     title: "Intermediate Object-Oriented Programming in Python",
     issuer: "DataCamp",
+    date: "August 30, 2026",
     category: "Courses",
+    image: dcOop.url,
   },
 ];
+
 
 export const education = [
   {

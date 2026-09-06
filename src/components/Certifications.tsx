@@ -80,14 +80,15 @@ export function Certifications() {
               onClick={() => setSelected(c)}
               className="glass glass-hover flex h-full w-full flex-col overflow-hidden rounded-2xl text-left"
             >
-              <div className="relative aspect-16/10 w-full overflow-hidden border-b border-border">
+              <div className="relative aspect-16/10 w-full overflow-hidden border-b border-border bg-secondary/40">
                 {c.image ? (
                   <img
                     src={c.image}
                     alt={`${c.title} certificate`}
                     loading="lazy"
-                    className="size-full object-cover transition-transform duration-500 hover:scale-105"
+                    className="size-full object-contain p-2 transition-transform duration-500 hover:scale-105"
                   />
+
                 ) : (
                   <div className="bg-grid grid size-full place-items-center bg-secondary/40">
                     <Award className="size-8 text-primary/70" aria-hidden />

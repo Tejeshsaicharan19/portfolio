@@ -8,6 +8,8 @@ import tata from "@/assets/certificates/tata-genai-data-analytics.jpg.asset.json
 import jnj from "@/assets/certificates/jnj-robotics-controls.jpg.asset.json";
 import eduskillsData from "@/assets/certificates/eduskills-data-analytics-python.jpg.asset.json";
 import eduskillsFullstack from "@/assets/certificates/eduskills-python-fullstack.jpg.asset.json";
+import rapidminer from "@/assets/certificates/rapidminer-applications-use-cases.jpg.asset.json";
+
 import androidVi from "@/assets/certificates/android-developer-internship.jpg.asset.json";
 import cyberVi from "@/assets/certificates/cybersecurity-internship.jpg.asset.json";
 import ethicalVi from "@/assets/certificates/ethical-hacking-internship.jpg.asset.json";

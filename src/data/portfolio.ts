@@ -32,6 +32,7 @@ import dcPostgres from "@/assets/certificates/datacamp-postgresql-databases.jpg.
 import dcLlama from "@/assets/certificates/datacamp-llama-3.jpg.asset.json";
 import dcDbt from "@/assets/certificates/datacamp-intro-dbt.jpg.asset.json";
 import dcOop from "@/assets/certificates/datacamp-intermediate-oop-python.jpg.asset.json";
+import resumePdf from "@/assets/resume/tejesh-resume.pdf.asset.json";
 
 
 export const profile = {
@@ -47,8 +48,7 @@ export const profile = {
   // PLACEHOLDER — replace with your real profile URLs
   github: "#github-placeholder",
   linkedin: "#linkedin-placeholder",
-  // PLACEHOLDER — put your resume PDF in the public folder as resume.pdf
-  resume: "/resume.pdf",
+  resume: resumePdf.url,
 };
 
 export const about = {
